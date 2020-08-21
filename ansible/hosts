@@ -1,0 +1,6 @@
+[webserver]
+ip-172-31-31-178.us-east-2.compute.internal
+[puppet]
+ip-172-31-38-255.us-east-2.compute.internal
+[local]
+lovalhost ansible_connection=local
