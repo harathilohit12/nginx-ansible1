@@ -1,6 +1,4 @@
 [webserver]
 ip-172-31-31-178.us-east-2.compute.internal
-[ansible]
-ip-172-31-17-248.us-east-2.compute.internal
 [local]
 lovalhost ansible_connection=local
