@@ -1,9 +1,9 @@
 ---
--name: "ensure centos machine"
- fail:
-  msg: "not found centos machine"
- when: ansible-facts['os_family'] == "Debian"
--block:
+- name: "ensure centos machine"
+  fail:
+   msg: "not found centos machine"
+  when: ansible-facts['os_family'] == "Debian"
+- block:
   - name: debug
     debug:
      msg: "varss::::: {{version}}"
