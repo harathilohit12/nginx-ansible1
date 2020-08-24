@@ -6,7 +6,7 @@
 - block:
   - name: debug
     debug:
-     msg: "varss::::: {{version}}"
+     msg: "varss::::: {{version}} {{nexus-password}}"
   - name: "set the nginx repo"
     apt_repository:
       repo: "ppa:nginx/stable"
