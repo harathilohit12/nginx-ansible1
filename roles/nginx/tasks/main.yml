@@ -28,4 +28,4 @@
     service:
       name: "{{ packagename }}"
       state: "started"
- when: ansible-facts['os_family'] == "Debian"
+  when: ansible_facts['os_family'] == "Debian"
